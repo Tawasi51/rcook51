@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../../.."
+		},
+		{
+			"path": "../../../../../../Downloads/furima素材のコピー/views/devise"
+		},
+		{
+			"path": "../../../../../../Downloads/furima素材のコピー/views/devise/registrations"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
