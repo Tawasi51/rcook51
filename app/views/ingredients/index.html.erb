@@ -1,0 +1,196 @@
+<%= render "shared/header" %>
+<div class='main'>
+
+  <%# 画面上部の「人生を変えるフリマアプリ」帯部分 %>
+  <div class='title-contents'>
+    <h2 class='service-title'>
+      ラクック
+    </h2>
+    <p class='service-explain'>
+      材料から料理を
+    </p>
+    <p class='service-explain'>
+      簡単検索アプリ
+    </p>
+    </div>
+  </div>
+  <%# //画面上部の「人生を変えるフリマアプリ」帯部分  %>
+
+  <%# FURIMAが選ばれる3つの理由部分 %>
+  <div class='select-reason-contents'>
+      <h2 class='title'>
+        食材の選択
+      </h2>
+      <%= form_tag("/ingredients/like") do %>
+        <ul class='reason-lists'>
+          <div class='reason-lists-list'>
+            <li class='list1'>
+              <div class="image-box" >
+              <%= check_box "list", "12-454-1525" %>
+                <h3 class='reason-list-text'>
+                  <span class='reason-list-blue-text'>トマト</span>
+                </h3>
+              </div>
+            </li>
+            <li class='list2'>
+              <div class="image-box">
+              <%= check_box "list", "12-98-1" %>
+                <h3 class='reason-list-text'>
+                  <span class='reason-list-blue-text'>キャベツ</span>
+                </h3>
+              </div>
+            </li>
+            <li class='list3'>
+              <div class="image-box">
+              <%= check_box "list", "12-447-1518" %>
+                <h3 class='reason-list-text'></span>
+                  <span class='reason-list-blue-text'>ナス</span>
+                </h3>
+              </div>
+            </li>
+            <li class='list4'>
+              <div class="image-box">
+              <%= check_box "list", "12-458-1529" %>
+                <h3 class='reason-list-text'>
+                  <span class='reason-list-blue-text'>ブロッコリー</span>
+                </h3>
+              </div>
+            </li>
+            <li class='list5'>
+              <div class="image-box">
+              <%= check_box "list", "12-449-1520" %>
+                <h3 class='reason-list-text'>
+                  <span class='reason-list-blue-text'>大根</span>
+                </h3>
+              </div>
+            </li>
+            <li class='list6'>
+              <div class="image-box">
+              <%= check_box "list", "12-455-1526" %>
+                <h3 class='reason-list-text'>
+                  <span class='reason-list-blue-text'>ごぼう</span>
+                </h3>
+              </div>
+            </li>
+            <li class='list7'>
+              <div class="image-box">
+              <%= check_box "list", "12-457-1528" %>
+                <h3 class='reason-list-text'>
+                  <span class='reason-list-blue-text'>ほうれん草</span>
+                </h3>
+              </div>
+            </li>
+            <li class='list8'>
+              <div class="image-box">
+              <%= check_box "list", "12-97-17" %>
+                <h3 class='reason-list-text'>
+                  <span class='reason-list-blue-text'>じゃがいも</span>
+                </h3>
+              </div>
+            </li>
+            <li class='list9'>
+              <div class="image-box">
+              <%= check_box "list", "12-456-1527" %>
+                <h3 class='reason-list-text'>
+                  <span class='reason-list-blue-text'>小松菜</span>
+                </h3>
+               </div>
+            </li>
+            <li class='list10'>
+              <div class="image-box">
+              <%= check_box "list", "12-450-1521" %>
+                <h3 class='reason-list-text'>
+                  <span class='reason-list-blue-text'>きゅうり</span>
+                </h3>
+             </div>
+            </li>
+            <li class='list11'>
+              <div class="image-box">
+              <%= check_box "list", "12-99-318" %>
+                <h3 class='reason-list-text'>
+                  <span class='reason-list-blue-text'>もやし</span>
+                </h3>
+              </div>
+            </li>
+            <li class='list12'>
+              <div class="image-box">
+              <%= check_box "list", "12-103-8" %>
+                <h3 class='reason-list-text'>
+                  <span class='reason-list-blue-text'>長ネギ</span>
+                </h3>
+              </div>
+            </li>
+            <li class='list13'>
+              <div class="image-box">
+              <%= check_box "list", "12-107-9" %>
+                <h3 class='reason-list-text'>
+                  <span class='reason-list-blue-text'>ニンニク</span>
+                </h3>
+              </div>
+            </li>
+            <li class='list14'>
+              <div class="image-box">
+              <%= check_box "list", "12-95-13" %>
+                <h3 class='reason-list-text'>
+                  <span class='reason-list-blue-text'>にんじん</span>
+                </h3>
+              </button>
+            </li>
+            <li class='list15'>
+              <div class="image-box">
+              <%= check_box "list", "12-101-32" %>
+                <h3 class='reason-list-text'>
+                  <span class='reason-list-blue-text'>オクラ</span>
+                </h3>
+              </div>
+            </li>
+            <li class='list16'>
+              <div class="image-box">
+              <%= check_box "list", "12-101-30" %>
+                <h3 class='reason-list-text'>
+                  <span class='reason-list-blue-text'>ピーマン</span>
+                </h3>
+              </div>
+            </li>
+            <li class='list17'>
+              <div class="image-box">
+              <%= check_box "list", "12-102-15" %>
+                <h3 class='reason-list-text'>
+                  <span class='reason-list-blue-text'>レンコン</span>
+                </h3>
+              </div>
+            </li>
+            <li class='list18'>
+              <div class="image-box">
+              <%= check_box "list", "12-100-2" %>
+                <h3 class='reason-list-text'>
+                  <span class='reason-list-blue-text'>レタス</span>
+                </h3>
+              </div>
+            </li>
+            <li class='list19'>
+              <div class="image-box">
+              <%= check_box "list", "12-96-7" %>
+                <h3 class='reason-list-text'>
+                  <span class='reason-list-blue-text'>玉ねぎ</span>
+                </h3>
+              </div>
+            </li>
+            <li class='list20'>
+              <div class="image-box">
+              <%= check_box "list", "12-451-1522" %>
+                <h3 class='reason-list-text'>
+                  <span class='reason-list-blue-text'>アボカド</span>
+                </h3>
+              </div>
+            </li>
+          </div>  
+        </ul>
+        <div class='purchase-btn'>
+        <input type="submit" value="検索する" class='purchase-btn-text'>
+        <%= image_tag 'camera.png' , size: '185x50' ,class: "purchase-btn-icon" %>
+      <% end %>
+  </div>
+  
+  
+ 
