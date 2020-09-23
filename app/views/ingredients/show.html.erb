@@ -1,0 +1,40 @@
+
+<div class="wrapper">
+  <div class="side-bar">
+   <div class="side-bar-header">
+  <div class="header-name">
+    <a href="#"></a>
+  </div>
+  <div class="create-room">
+    <a href="#"></a>
+  </div>
+</div>
+
+
+<div class="accordion">
+  <dl class="accordion-box">
+    <dt class="question-time"><span></span>調理時間</dt><!-- /.question -->
+    <dd class="answer">5分 10分 15分 30分 </dd><!-- /.answer -->
+  </dl><!-- /.accordion-box -->
+    <dl class="accordion-box">
+    <dt class="question-dish"><span></span>調理方法</dt><!-- /.question -->
+    <dd class="answer">煮込み 揚げ物 炒め物 </dd><!-- /.answer -->
+  </dl><!-- /.accordion-box -->
+</div>
+  </div>
+  <div class="recipe">
+    <% if @result.present? %>
+      <% @result.each do |result| %>
+        <div class="recipe-title">
+          <%= result["recipeTitle"] %>
+        </div>
+        <div class="recipe-content">
+           <%= link_to result["recipeUrl"], result["recipeUrl"]%>
+        </div>
+        <div class="recipe-material">
+          <%=  result["recipeMaterial"] %>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+</div>

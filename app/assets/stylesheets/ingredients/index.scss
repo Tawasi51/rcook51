@@ -1,0 +1,264 @@
+a {
+  text-decoration: none;
+}
+
+.main {
+  background: #f8f8f8;
+}
+
+/* 画面上部の「人生を変えるフリマアプリ」帯部分 */
+.title-contents {
+  width: 100vw;
+  background-image: image-url('2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5vh 15vw;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
+
+.service-title {
+  font-size: 8vh;
+}
+
+.service-explain {
+  font-size: 2.5vh;
+  line-height: 40px;
+}
+
+
+/* //画面上部の「人生を変えるフリマアプリ」帯部分 */
+
+/* FURIMAが選ばれる3つの理由部分 */
+.select-reason-contents {
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10vh 0;
+}
+
+
+.reason-lists li {
+  /* liが横並びになるようにします。 */
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background-color:wheat;
+  padding: 20px;
+  margin: 10px,10px,10px,10px;
+
+
+  
+}
+.title{
+  font-size: 50px;
+}
+.reason-lists-list{
+  background-color: #3ccace; 
+
+}
+
+.list1{
+  background-image: image-url('tomato.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.list2{
+  background-image: image-url('kyabetu.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.list3{
+  background-image: image-url('nasu.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.list4{
+  background-image: image-url('burokkori-.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.list5{
+  background-image: image-url('daikonn.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position:  center;
+}
+
+.list6{
+  background-image: image-url('gobou.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position:  center;
+}
+
+.list7{
+  background-image: image-url('hourensou.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position:  center;
+}
+
+.list8{
+  background-image: image-url('kabotya.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.list9{
+  background-image: image-url('komatuna.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.list10{
+  background-image: image-url('kyuuri.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.list11{
+  background-image: image-url('moyasi.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.list12{
+  background-image: image-url('naganegi.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.list13{
+  background-image: image-url('ninnniku.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.list14{
+  background-image: image-url('ninnzin.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.list15{
+  background-image: image-url('okura.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.list16{
+  background-image: image-url('pi-man.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.list17{
+  background-image: image-url('rennkon.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.list18{
+  background-image: image-url('retasu.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.list19{
+  background-image: image-url('tamanegi.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.list20{
+  background-image: image-url('abokado.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+ul.reason-lists li .image_box {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+.image_box img.thumbnail {
+  width: 100%;
+  height: 100%;
+}
+
+
+  
+
+.btn{
+  margin:15px 8px;
+  text-align: center;
+  background: #ffd8b1;
+  color: #fff;
+  cursor: pointer;
+}
+.btn.isActive{
+  background: #f9a34b;
+  color: #f9a34b;
+}
+.list-pict {
+  margin-bottom: 10px;
+  width: 80%;
+  padding: 1vw;
+}
+
+.reason-list-number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+  background-color: #3ccace;
+  color: #fff;
+  
+}
+
+.reason-list-text {
+  font-weight: bold;
+  font-size: 20x;
+  line-height: 50px;
+}
+
+.reason-list-blue-text {
+  color: #2f2b24;
+}
+
+
+
+/* //FURIMAが選ばれる3つの理由部分 */
+
