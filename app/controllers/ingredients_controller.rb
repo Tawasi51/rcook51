@@ -6,12 +6,7 @@ class IngredientsController < ApplicationController
   def index
     @ingredient = Ingredient.new
     @ingredients = Ingredient.includes(:user)
-    # @ingredient = Ingredient.select("list")
-    # uri =  URI.parse("https://app.rakuten.co.jp/services/api/Recipe/CategoryRanking/20121121?applicationId=1094957104355351321&categoryId=#{@ingredient.list}")
-    #    json = Net::HTTP.get(uri)
-    #    @result = JSON.parse(json)
-    #    @result = @result["result"]
-
+    
   end
   def new
     @ingredient = Ingredient.new
@@ -52,12 +47,7 @@ class IngredientsController < ApplicationController
       end
     end
     redirect_to  ("/ingredients/show") 
-      #   uri =  URI.parse("https://app.rakuten.co.jp/services/api/Recipe/CategoryRanking/20121121?applicationId=1094957104355351321&categoryId=#{@ingredient.list}")
-      #  json = Net::HTTP.get(uri)
-      #  @result = JSON.parse(json)
-      #  @result = @result["result"]
-      #  return 
-    # q
+      
   end
   def search
     uri =  URI.parse("https://app.rakuten.co.jp/services/api/Recipe/CategoryRanking/20121121?applicationId=1094957104355351321&categoryId=#{@ingredient.list}")
